@@ -1,0 +1,10 @@
+CREATE TABLE `user_form` (
+  `name` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `mobile` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL,
+  `image` varchar(100) NOT NULL,
+  `token` varchar(255) NOT NULL,
+  `status` varchar(100) NOT NULL,
+  PRIMARY KEY (`email`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
